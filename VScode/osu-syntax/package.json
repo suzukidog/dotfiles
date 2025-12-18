@@ -1,0 +1,21 @@
+{
+  "name": "osu-syntax",
+  "displayName": "osu!Syntax",
+  "description": "Themes color-coordinated based on osu!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "osu!Syntax",
+        "uiTheme": "vs-dark",
+        "path": "./themes/osu!Syntax-color-theme.json"
+      }
+    ]
+  }
+}
