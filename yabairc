@@ -19,6 +19,7 @@ yabai -m rule --add app="^CleanShot X" 		manage=off
 yabai -m rule --add app="^Calculator" 		manage=off
 yabai -m rule --add app="^QuickTime Player"   	manage=off
 yabai -m rule --add app="^Karabiner-Elements"   manage=off
+yabai -m rule --add app="^Nani"   		manage=off
 
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 yabai -m rule --apply
@@ -35,6 +36,7 @@ yabai -m rule --add app="DataGrip" space=^3
 
 # space 4
 yabai -m rule --add app="Things" space=^4
+yabai -m rule --add app="ChatGPT" space=^4
 
 # space 5
 yabai -m rule --add app="Bitwarden"　space=^5
